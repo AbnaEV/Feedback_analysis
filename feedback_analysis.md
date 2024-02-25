@@ -16,46 +16,54 @@ The study employs a combination of exploratory data analysis (EDA) and machine l
 
 Visualizations reveal a balanced distribution of data across different resource persons, with Mrs. Akshara Sasidharan representing the largest share. Content quality ratings are predominantly high, as indicated by box plots, showing overall satisfaction. Nonetheless, variations and outliers in effectiveness, expertise, and overall organization suggest that while some sessions were highly rated, others warrant further examination.
 
- **Faculty-wise Distribution of Data:** ![Faculty-Wise Distribution of Data](Images/1.jpg)
+### Faculty-wise Distribution of Data:
+<img src="Images/1.jpg" width="500" alt="Faculty-wise Distribution of Data">
+
 -  The dataset shows a distribution among four resource persons, with proportions as follows:
 - Mrs. Akshara Sasidharan: 34.48%
 - Mrs. Veena A Kumar: 31.03%
 - Dr. Anju Pratap: 17.24%
 - Mrs. Gayathri J L: 17.24%
-- The data is evenly distributed across faculties, with Mrs. Akshara Sasidharan having the largest share, facilitating a comprehensive feedback analysis across different teaching methods and content delivery.
+- The data is evenly distributed across faculties, with Mrs. Akshara Sasidharan having the largest share, facilitating a comprehensive feedback analysis across 
+  different teaching methods and content delivery.
 - 
-  ## Summary of Responses
-![Summary of responses](Images/2.jpg)
-Boxplot visualizations reveal the spread and central tendency of ratings for various criteria (content quality, effectiveness, expertise, relevance, and overall organization), showing predominantly high ratings with median values often at or near 5. Outliers indicate sessions with significantly lower ratings.
+  ### Summary of Responses
+  <img src="Images/2.jpg" width="500" alt="Summary of Responses">
+   Boxplot visualizations reveal the spread and central tendency of ratings for various criteria (content quality, effectiveness, expertise, relevance, and overall 
+   organization), showing predominantly high ratings with median values often at or near 5. Outliers indicate sessions with significantly lower ratings.
 
-- **Content Quality Summary:** ![Content Quality](Images/3.jpg)
+ ### Content Quality Summary:
+ <img src="Images/3.jpg" width="500" alt="Content Quality Summary">
 - Content quality is rated highly across all resource persons, indicating that the course material generally meets or exceeds expectations.
 
-- **Effectiveness:**
--![Effectiveness](Images/4.jpg)
+ ### Effectiveness:
+   <img src="Images/4.jpg" width="500" alt="Effectiveness">
 -  Variability in the effectiveness of the training methods suggests the need for adaptation to accommodate diverse learning styles, despite the content's quality.
 
-- **Expertise:**
--![Expertise](Images/5.jpg)
+ ### Expertise:
+ <img src="Images/5.jpg" width="500" alt="Expertise">
 - The instructors' expertise is highly regarded, with minimal outliers, underscoring the quality of instruction.
 
-- **Relevance:**
-- ![Relevance](Images/6.jpg)
+  ### Relevance:
+  <img src="Images/6.jpg" width="500" alt="Relevance">
   High relevance scores are crucial for enabling participants to apply their learning in real-world scenarios, and this aspect is rated consistently well.
 
-- **Overall Organization:**
-- ![Overall Organization](Images/7.jpg)
+  ### Overall Organization:
+  <img src="Images/7.jpg" width="500" alt="Overall Organization">
 - While trending positively, the overall organization shows slightly more variability than other metrics, indicating room for improvement in time management and clarity of instructions.
 
-- **Branch-wise Content Quality:**
-![Branch-wise Content Quality](Images/8.jpg)
-- Analysis by branch reveals consistent content quality, with the ECE branch exhibiting slightly more variability, pointing to a potential area for focused enhancement.
-### Elbow Method and K-means Clustering
-![Elbow Method and K-means Clustering](Images/9.jpg)
-The Elbow method suggests a preference for a smaller number of clusters for data segmentation. The resultant K-means clustering effectively visualizes these segments, potentially guiding course providers in tailoring resources and interventions to meet different groups' needs.
+ ### Branch-wise Content Quality:
+   <img src="Images/8.jpg" width="500" alt="Branch-wise Content Quality">
+-   Analysis by branch reveals consistent content quality, with the ECE branch exhibiting slightly more variability, pointing to a potential area for focused 
+    enhancement.
+  
+### Elbow Method and K-means Clustering:
+ <img src="Images/9.jpg" width="500" alt="Elbow Method and K-means Clustering">
+  The Elbow method suggests a preference for a smaller number of clusters for data segmentation. The resultant K-means clustering effectively visualizes these 
+  segments, potentially guiding course providers in tailoring resources and interventions to meet different groups' needs.
 
 ## Clustering Analysis
-![ Clustering Analysis](Images/10.jpg)
+ <img src="Images/10.jpg" width="500" alt="Clustering Analysis">
 A scatter plot visualizes distinct groups based on Effectiveness and Expertise, indicating patterns that could predict student satisfaction levels.
 
 ## Overall Insights
